@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans';
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  
+ 
+}
+#container{
+  width: 100%;
+ 
+  padding: 0 40px;
+ 
+}
+#nav{
+  background: rgb(219, 219, 219);
+  color: black;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav>a{
+  font-weight: 700;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+#rightnav{
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+}
+#rightnav>a{
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+
+#hero>h2{
+  
+  padding: 40px 20px;
+  text-align: center;
+  
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 2rem;
+}
+#hero>h5{
+  padding: 20px 20px;
+  text-align: center;
+  
+  line-height: 2rem;
+  font-weight: 300;
+  font-size: medium;
+}
+
+#tiger>img{
+  width: 100%;
+  margin-top: 4rem;
+ 
+  height: 600px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  position: relative;
+  border-radius: 25px;
+  
+}
+
+/* safari page */
+#safari{
+  width: 100%;
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+#heading{
+  text-transform: capitalize;
+  text-align: center;
+}
+#heading>h3{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+#heading>h5{
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+#imagesafari{
+ 
+  background: url("/public/safari1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  height: 600px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  flex: 50%;
+}
+#bottomsafari{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#leftsafari{
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  text-align: center;
+  flex: 50%;
+}
+#leftsafari>h6{
+  font-weight: 100;
+  font-size: 18px;
+  
+}
+/* hotel page */
+#hotel{
+  width: 100%;
+  height: 100vh;
+  margin-top: 6rem;
+}
+
+#hotelhead{
+  text-transform: capitalize;
+  text-align: center;
+}
+#hotelhead>h3{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+#hotelhead>h5{
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+#bottomhotel>p{
+  font-size: small;
+  font-weight: 100;
+  
+  padding: 2rem 20px;
+  text-align: center;
+}
+.hotel1{
+  background: url("/public/hotel1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  
+}
+.hotel2{
+  background: url("/public/hotel2.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+.hotel3{
+  background: url("/public/hotel3.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+.images{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+
+#contact{
+  background: rgb(219, 219, 219);
+  color: black;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact>a{
+  font-weight: 700;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+#rightfoot{
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+}
+#rightfoot>a{
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
